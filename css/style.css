@@ -1,0 +1,162 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:'Lato', sans-serif;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+h1{
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+h2{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+h3{
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+}
+h4{
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+h5{
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+}
+h6{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+/* Header */
+
+#row1{
+height: 80px;
+}
+#row2{
+background-color: red;
+}
+#row3{
+background-color: green;
+}
+
+.container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#row1 .container{
+    height: 100%;
+    padding: 10px 0;
+}
+
+/* Header */
+#icon{
+    float: left;
+    height: 60px;
+}
+
+#menu{
+    float: right;
+    width: 70%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+#row1>.container>#menu>.row:first-child{
+    background-color: white;
+}
+
+#row1>.container>#menu>.row:last-child{
+}
+
+#navlang li{
+    float: right;
+    padding-left: 20px;
+}
+
+#navlang li a{
+    color: black;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#navlang li a:hover{
+    color: #ff9d1e;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#menu2{
+    float: left;
+    margin-top: 30px;
+}
+
+#smi{
+    float: right;
+    padding-top: 15px;
+}
+
+#menu2 li{
+    float: left;
+    padding-right: 10px;
+}
+
+#smi li{
+    float: left;
+    margin-left: 8px;
+    padding: 5px;
+
+}
+
+#smi a ion-icons{
+    font-size: 1.2rem;
+    color: white;
+    vertical-align: baseline;
+}
+
+#smi li a,#menu2 li a{
+    color: black;
+    text-decoration: none;
+}
+
+#smi ul li:first-child{
+    background-color: #3f4da1;
+}
+
+#smi ul li:nth-child(2){
+    background-color: #57a0d7;
+}
+
+#smi ul li:nth-child(3){
+    background-color: #57a0d7;
+}
+
+#smi ul li:last-child{
+    background-color: #d74527;
+}
+
+#menu2 li:hover{
+    text-decoration: underline;
+}
+
+#smi li{
+    float: left;
+    margin-left: 8px;
+    padding: 5px;
+
+}
