@@ -354,7 +354,7 @@ aside a ion-icon{
         opacity: 1;
     }
     to{
-        transform: scale(15);
-        opacity: 0.5;
+        transform: scale(20);
+        opacity: 0.3;
     }
 }
