@@ -358,3 +358,63 @@ aside a ion-icon{
         opacity: 0.3;
     }
 }
+
+/* Main */
+
+main>.row:first-child,
+main>.row:first-child>.container{
+        height: 90px;
+}
+
+main>.row:first-child>.container>.col{
+    padding: 20px 10px 0;
+    height: 100%;
+}
+
+main>.row:first-child>.container>.col:first-child{
+    width: 75%;
+    float: left;
+}
+
+main>.row:first-child>.container>.col:last-child{
+    width: 25%;
+    float: right;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li{
+    width: 20%;
+    /* border: 1px solid black; */
+    float: left;
+    text-align: right;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li h3{
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #1f1f1f;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li a:hover{
+    text-decoration: underline;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li a img{
+    border: 3px solid transparent;
+}
+
+main>.row:first-child>.container>.col:first-child>ul li a:hover img{
+    border: 3px solid #ffde00;
+}
+
+
+main>.row:first-child>.container>.col:first-child>ul li .country-code{
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 0.7rem;
+}
