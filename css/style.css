@@ -354,8 +354,8 @@ aside a ion-icon{
         opacity: 1;
     }
     to{
-        transform: scale(15);
-        opacity: 0.5;
+        transform: scale(20);
+        opacity: 0.33;
     }
 }
 
@@ -426,7 +426,6 @@ main>.row:nth-child(2)>.container>.col{
 
 main>.row:nth-child(2)>.container>.col:first-child{
     width: 75%;
-    background-color: red;
 }
 
 main>.row:nth-child(2)>.container>.col:last-child{
@@ -477,3 +476,86 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div{
 main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
     width: 90%;
 }
+
+#slider{
+    position: relative;
+    margin-top: 20px;
+    padding: 0 10px;
+    height: 388px;
+    overflow: hidden;
+    /* width: 850px; */
+}
+
+.slide{
+    position: absolute;
+    background-repeat: no-repeat;
+    height: 388px;
+    background-size: contain ;
+    background-position: center;
+    /* float: left; */
+    width: 100%;
+    
+
+}
+
+.slide .prev, .slide .next{
+    position: absolute;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 26px;
+    background-color: rgba(128,130,133,0.9);
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.slide .prev:hover, .slide .next:hover{
+    background-color: rgba(128,130,133,0.8);
+
+}
+
+
+.slide .prev{
+    left: 10px;
+}
+
+.slide .next{
+    right: 10px;
+}
+.slide ion-icon{
+    color: white;
+    vertical-align: sub;
+}
+
+#slide-1{
+    background-image: url("https://boc.lk/image/data/Banner/200Day_investment-2022-Sept-Web.jpg") ;
+}
+
+#slide-2{
+    background-image: url("https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg");
+    left: 100%;
+
+}
+
+#slide-3{
+    background-image:url("https://boc.lk/image/data/Banner/SDA-2022-09.jpeg");
+    left: 200%;
+}
+
+#slide-4{
+    background-image: url("https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg");
+    left: 300%;
+}
+
+#slide-5{
+    background-image: url("https://boc.lk/image/data/Banner/green-loan-2022.jpeg");
+    left: 400%;
+}
+
+#slide-6{
+    background-image: url("https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg");
+    left: 500%;
+}
+
